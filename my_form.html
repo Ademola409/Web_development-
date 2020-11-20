@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            margin-top: 40px;
+        }
+
+        .form_container {
+            border: 2px solid #80bdff;
+            padding: 25px 50px 25px 50px;
+            text-align: center;
+            
+            
+
+        }
+
+        .form_control {
+            width: 100%;
+            padding: 15px;
+            margin-top: 15px;
+            border: 1px solid;
+            border-color: rgb(183, 188, 192);
+            border-radius: 5px;
+            
+
+        }
+
+        /* .form_control:hover {
+            background-color: aqua;
+        } */
+
+        .form_control:focus {
+            border: 2px solid #80bdff;
+            outline: none;
+            box-shadow:0px -5px 5px -5px #80bdff
+        }
+
+        .btn {
+            border: none;
+            padding: 15px;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+
+        .btn2 {
+            text-transform: uppercase;
+            margin-top: 15px;
+            width: 105%;
+            border-radius: 5px;
+        }
+
+        .btn_primary {
+            color: #fff;
+            background-color: #33b5e5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="form_container">
+        <h3>Sign In</h3>
+        <form  id="the_form" action="">
+            <input id="user_name"type="text" placeholder="Name" class="form_control">
+            <input id="password" type="text" placeholder="Password" class="form_control">
+            <input id="phone" type="number" placeholder="Phone Number" class="form_control">
+            <button class="btn btn2 btn_primary">Sign In</button>
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        user_name
+                    </th>
+
+                    <th>
+                        password
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="show_info">
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>

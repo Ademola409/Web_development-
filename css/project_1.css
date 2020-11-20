@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-image: url('https://pbs.twimg.com/media/EYqtUKFX0AY4bYM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.object_1 {
+    color: orangered;
+    margin-left: 30px;
+}
+
+.object_2 {
+    float: right;
+    padding-top: 12px;
+    color: orangered;
+}
+
+.object_3 {
+    width: 100%;
+}
+
+.object_5 {
+    color: red;
+    width: 20%;
+    padding: 76vh 0 10vh 0;
+}

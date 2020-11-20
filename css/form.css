@@ -1,0 +1,49 @@
+.container{
+    margin: 0 10% 0 10%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 47px;
+}
+.col-md-6{
+    border: 2px solid #f0f0f0;
+    padding: 25px 50px 25px 50px;
+}
+.form-control{
+    padding: 15px;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    
+}
+.form-control:focus{
+    border: 2px solid #80bdff;
+    outline: none;
+}
+h3{
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.btn2{
+    text-transform: uppercase;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #33b5e5;
+}

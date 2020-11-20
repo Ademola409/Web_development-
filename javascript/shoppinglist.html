@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .major_container {
+            display: flex;
+        }
+
+        .container {
+            margin-left: 60px;
+            width: 500px;
+            border: 2px solid grey;
+            padding: 10px;
+            height: 410px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightseagreen;
+            border-radius: 8px;
+        }
+
+        input:hover {
+
+            background-color: rgb(175, 164, 164);
+        }
+
+        label {
+            color: rgb(39, 38, 38);
+            margin-top: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px solid lightseagreen;
+            border-radius: 8px;
+        }
+
+        button:active {
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="major_container">
+        <div class="table_container">
+            <table border="1" id="my_table">
+                <tr>
+                    <th>
+                        SN
+                    </th>
+
+                    <th>
+                        NAME
+                    </th>
+
+                    <th>
+                        PRODUCT
+                    </th>
+
+                    <th>
+                        QUANTITY
+                    </th>
+
+                    <th>DESCRIPTION
+
+                    </th>
+
+                    <th>
+                        PRICE PER QUANTITY
+                    </th>
+
+                    <th>TOTAL PRICE</th>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+
+        <div class="container">
+            <form action="" id="form">
+                <label>Name</label>
+                <input id="name" type="text" placeholder="Enter your name">
+                <label>Product</label>
+                <input id="product" type="text" placeholder="Product">
+                <label>Quantity</label>
+                <input id="quantity" type="number" placeholder="Quantity">
+                <label>DESCRIPTION</label>
+                <input id="description" type="text" placeholder="Goods Description">
+                <label>Price per unit</label>
+                <input id="price_per_unit" type="number" placeholder="Unit Price">
+                <label>Total Price</label>
+                <input id="Total_price" type="number" placeholder="Total">
+                <button>submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="shoppinglist.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body{margin: 0;}
+
+
+header{
+    font-family: 'Pacifico', cursive; 
+    color: black;
+    background-color: pink;
+    padding-bottom: 0px;
+}
+
+.background_image{
+    background-size: cover;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+}

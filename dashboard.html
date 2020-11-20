@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            background: grey;
+        }
+
+        #side_menu {
+            width: 280px;
+            background-color: purple;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        nav {
+            padding-top: 100px;
+            
+
+        }
+
+        a {
+            display: block;
+            display: flex;
+            color: rgb(138, 131, 131);
+            text-decoration: none;
+            padding: 15px 30px 15px 25px;
+            font-weight: 300;
+            align-items: center;
+            
+        }
+
+        a:active {
+            background-color: rgb(36, 7, 36);
+            border-left: 5px solid green;
+            padding: 15px 30px 15px 25px;
+        }
+
+        a:hover {
+            background-color: plum;
+            transition: 0.4s ease-in-out;
+        }
+
+        .fa {
+            color: green;
+            font-size: 1.9rem;
+            margin-right: 0.8rem;
+            display: inline-block;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="side_menu">
+        <nav>
+            <a href=""><i class="fa fa-home" aria-hidden="true"></i>item1</a>
+            <a href=""><i class="fa fa-sticky-note-o" aria-hidden="true"></i>item2</a>
+            <a href=""><i class="fa fa-user" aria-hidden="true"></i>item3</a>
+            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>item4</a>
+            <a href=""><i class="fa fa-bookmark-o" aria-hidden="true"></i>item5</a>
+            <a href=""><i class="fa fa-cog" aria-hidden="true"></i>item6</a>
+        </nav>
+    </div>
+</body>
+
+</html>
