@@ -1,0 +1,159 @@
+body{
+    font-family:Lato;
+}
+
+.blue_sight{
+    background: rgb(65, 65, 255);
+    height:40px;
+    display: flex;
+    align-items: center;
+}
+
+.green_color{
+    background:rgb(27, 233, 27); 
+    display:flex;
+    align-items: center;
+    height: 30px;
+}
+
+.reset{
+    margin-bottom: 0;
+}
+
+.real{
+    border: 2px solid green;
+}
+
+.fa-envelope-open{
+    background: blue;
+    padding: 10px;
+    color:white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.fa-pencil{
+    background: yellow;
+    padding: 10px;
+    color:white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+.fa-trash-o{
+    background: red;
+    padding: 10px;
+    color:white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+.fa-cogs{
+    background:green;
+    padding: 10px;
+    color:white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.footer_r{
+    display:flex;
+}
+
+.button_edit{
+    display:flex;
+}
+
+.management{
+    margin:20px 0 20px 0;
+    border-radius: 7px;
+    border: 2px solid rgb(228, 222, 222);
+    padding: 8px 8px 8px 8px;
+
+}
+
+.side_bar{
+    display: none;
+    background:rgb(102, 95, 95);
+    min-width: 250px;
+    max-width:250px;
+    position: fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    z-index:3;
+    padding: 50px 0 0 2px;
+}
+
+.wrapper{
+    display:flex;
+}
+
+
+a {
+    display: block;
+    display: flex;
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    align-items: center;
+    padding:20px;
+}
+
+.fa {
+    font-size: 20px;
+    margin-right: 10px;
+    padding-left: 6px;
+}
+
+a:hover {
+    background-color: rgb(235, 225, 225);
+    border-left: 3px solid blue;
+    color: blue;
+    text-decoration: none;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.active {
+    display: block;
+    opacity: 1;
+}
+
+
+#p_picture{
+    margin-right:10px;
+    width:35%;
+    height:35%;
+    border:1px solid rgb(102, 95, 95);
+    border-radius: 72px;
+}
+
+.user {
+    display: flex;
+    align-items:center
+}
+
+
+.profile{
+    padding-left: 10px;
+}
+
+select{
+
+    border:1px solid  rgb(102, 95, 95);
+    background: rgb(102, 95, 95);
+    outline:none;
+
+}
