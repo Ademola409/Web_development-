@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <style>
+        #container{ 
+            width: 360px;
+            margin: 100px auto;
+            background: #f7f7f7;
+            border: 2px solid grey;
+            box-shadow: 0 0 3px rgba(0,0,0 0.1);
+            
+        }   
+
+        h1{
+            background: #2980b9;
+            color: white;
+            margin: 0;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight:normal;
+        }
+
+        ul{
+            list-style: none;
+            margin:0;
+            padding: 0;
+        }
+        li{
+            background: white;
+            height: 40px;
+            line-height: 40px; 
+            color: #666;   
+        }
+
+        li:nth-child(2n){
+            background: rgb(241, 239, 239);
+        }
+        
+        input{
+            font-size: 18px;
+            background-color: #f7f7f7;
+            width: 100%;
+            padding: 13px 13px 13px 20px;
+            box-sizing: border-box;
+            color:#2980b9;
+        }
+
+        input:focus{
+            background: #fff;
+            border: 3px solid #2980b9;
+            outline: none;
+            border:3px solid rgba(0,0,0,0,)
+        }
+
+        body{
+            background: #1CD8D2;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .fa-plus{
+            float: right;
+        }
+
+        span{
+            background: #e74c3c;
+            height: 40px;
+            margin-right: 20px;
+            text-align: center;
+            color: white;
+            width: 0px;
+            display: inline-block;
+            opacity: 0;
+            transition: 0.2s linear;
+
+        }
+
+        li:hover span{
+            width: 40px;
+            opacity: 1.0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>To-Do List<i class="fa  fa-plus"></i></h1>
+        <input type="text" placeholder="Add New Todo">
+        <ul>
+            <li><span><i class="fa fa-trash"></i></span> Go to portion class</li>
+            <li><span><i class="fa fa-trash"></i></span> Buy New Robes</li>
+            <li><span><i class="fa fa-trash"></i></span> Visit Hagrid</li>
+        </ul>   
+    </div>
+    <script src="javascript/Todolist.js"></script>
+</body>
+</html>

@@ -59,7 +59,7 @@ function edithtmltableselectedrows(){
     var fname=document.getElementById('fname').value
     var lname=document.getElementById('lname').value
     var age=document.getElementById('age').value
-    if(checkemptyinput()){
+    if(!checkemptyinput()){
         table.rows[rindex].cells[0].innerHTML=fname
         table.rows[rindex].cells[1].innerHTML=lname
         table.rows[rindex].cells[2].innerHTML=age
